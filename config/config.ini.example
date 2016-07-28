@@ -4,8 +4,9 @@
 #password:
 
 # Database settings
-#db-type: sqlite        # sqlite (default) or mysql
-#db-host:               # required for mysql
+#db-type: sqlite        # sqlite (default) or mysql, gcsql
+#db-host:               # required for mysql and not require for gcsql
+#db-instance:           # required for gcsql and not require for mysql
 #db-name:               # required for mysql
 #db-user:               # required for mysql
 #db-pass:               # required for mysql
